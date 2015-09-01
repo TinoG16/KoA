@@ -2,14 +2,15 @@ github.com
 	neues reposetori anlegen
 
 	Host:mkdir kua_fit4h 	#erstellt ordener
-	cd kua_fit4h 					#ins verzeichnis wechseln
-	git init 							#initialisieren eines neuen GIT rep.
-	touch text.text    		#erzeugen einer neuen datei
+	cd kua_fit4h 		#ins verzeichnis wechseln
+	git init 		#initialisieren eines neuen GIT rep.
+	touch text.text    	#erzeugen einer neuen datei
 	git add text.txt 			#die datei text.txt wird ins neue repository aufgenommen
 	git commit -m 'Initialisierung' 			
-												#	Die neue Datei wird in den Bereich der geschoben, die mit dem Server synchroniesiert werden sollen
+						#Die neue Datei wird in den Bereich der geschoben, die mit dem Server 								synchroniesiert werden sollen
+						
 git remote add origin https://tinoshandy@gmail.com:TinoG16/kua_fit.git
-
 #das lokale repository wird mit einem öffentlichen repository verbunden
 
-git pusch -u origin master #die änderungen die auf dem lokalen repository durchgefüht wurden werden mit dem stand auf dem server verglich und die neuste version wird auf den server kopiert.
+git pusch -u origin master 
+#die änderungen die auf dem lokalen repository durchgefüht wurden werden mit dem stand auf dem server verglich und die neuste version wird auf den server kopiert.
