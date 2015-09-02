@@ -1,7 +1,7 @@
 github.com
 	neues reposetori anlegen
 
-	Host:mkdir kua_fit4h 	#erstellt ordener
+	Host:mkdir koA_fit4h 	#erstellt ordener
 	cd kua_fit4h 		#ins verzeichnis wechseln
 	git init 		#initialisieren eines neuen GIT rep.
 	touch text.text    	#erzeugen einer neuen datei
