@@ -1,0 +1,15 @@
+cd
+
+mkdir
+
+ls
+
+cp
+
+rm #löscht dateien und verzeichnisse
+cd /home/tb
+rm -rf eup_fit2ah
+
+rm -rf 
+-r # rekusive von hier alle verzeichnisse
+-f # force alles wird ohne nachfrage gelöscht
