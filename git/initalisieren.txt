@@ -1,4 +1,4 @@
-github.com
+github.com 
 	neues reposetori anlegen
 
 	Host:mkdir koA_fit4h 	#erstellt ordener

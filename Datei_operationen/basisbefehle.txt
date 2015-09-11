@@ -1,15 +1,45 @@
-cd
+cd 		#ermöglicht das navigieren innerhalb des dateisystems
 
-mkdir
+cd ..	#eine Ebene zurück
+cd ~	# steht für /home/pan
+cd Dokumente		#relativer Pfad: vom aktuellen Standort aus
+cd /home/pan/Downloads		#absoluter Pfad von der Wurzel das Dateisystems 													#anfangend
 
-ls
+mkdir	ordner	#erzeugt ein Verzeichnis im aktuellen verzeichnis names 									ordner
 
-cp
+mkdir /home/pan/Dokumente/ordner	#
+
+touch datei_name 	#ertsllt im aktuellen verzeichnis eine datei mit dem 											#namen :datei_name
+
+ls -lat
+	-a:			#alles anzeigen auch die versteckten
+	-l: 		#long (viel info)
+	-t:			#sortiert nacht zeit, jüngstes datum immer oben!
+
+
 
 rm #löscht dateien und verzeichnisse
 cd /home/tb
 rm -rf eup_fit2ah
 
+cp quelle ziel
+cp datei2 datei4		#die existierende datei2 wird als datei4 im aktuellen											# verzeichnis neu erzeugt oder überschrieben
+cp datei03~/Dokumente/datei03		# datei wir hier her kopiert
+cp -r verzeichnis1 verzeichnis2		# beim kopieren von verzeichnissen muss																		 das -r angegeben werdenrekusiv
+
 rm -rf 
 -r # rekusive von hier alle verzeichnisse
 -f # force alles wird ohne nachfrage gelöscht
+
+Consolenhilfe
+
+ri String.center 	#Bei der Installation von Ruby wirdneine Hilfe mitinstalliert, die mit ri Klassennamen.Methodenname auf der LinuxConsole aufgerufen wird. 
+cp *.txt unterverzeichnis/#kopiert alle dateinen mit der endung txt in  														das zeil(unterverzeichnis)
+
+*				#steht für beliegig viele ziele
+
+mv quell ziel #zum Umbenennen und Verscheieben von dateinen und ordnern
+
+less
+	#less datei_name		#zeigt den inhalt der datei zeilenweise an.weiter #blätter=space
+	#beenden ist q
